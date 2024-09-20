@@ -30,7 +30,7 @@ public class Student
             return "Student{" + "name=" + name + ", sid=" + sid + ", sem=" + sem + '}';
         }
     /**
-     * @return the sid
+     * @return the sid yuhhh
      */
     public int getSid() {
         return sid;
