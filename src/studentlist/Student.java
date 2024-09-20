@@ -4,15 +4,12 @@
  */
 package studentlist;
 
-/** entity 
- *
- * @author sivagamasrinivasan
- */
-public class Student // model the student raw data
+
+public class Student 
 {
     private String name; // variables private 
-   private int sid; // principle "encapsulation"
-private int sem;
+    private int sid; // principle "encapsulation"
+    private int sem;
     /**
      * @return the name
      */
@@ -20,13 +17,18 @@ private int sem;
         return name;
     }
 
+    
+
     /**
      * @param name the name to set
      */
     public void setName(String name) {
         this.name = name;
     }
-
+    @Override
+        public String toString() {
+            return "Student{" + "name=" + name + ", sid=" + sid + ", sem=" + sem + '}';
+        }
     /**
      * @return the sid
      */
